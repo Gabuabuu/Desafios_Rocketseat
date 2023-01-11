@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #2A2141;
+    height: 486px;
+    width: 300px;
+    left: 550px;
+    position: absolute;
+    /* gap: 28.81px; */
+    top: 66px;
+    border-radius: 20px;
+}
+
+.image-album {
+    width: 65%;
+    /* margin: 50px; */
+    margin: 55px 50px 25px;
+    border-radius: 30px;
+}
+
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    color: #E1E1E6;
+    line-height: 100%;
+}
+
+.nome-banda {
+    font-size: 19px;
+    color: #E1E1E6;
+    opacity: 50%;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 10px;
+}
